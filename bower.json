@@ -1,0 +1,13 @@
+{
+  "name": "reset-css-dogmatic",
+  "description": "A modified and dogmatic version of Eric Meyer's CSS reset. PostCSS, webpack, Sass, and Less friendly.",
+  "homepage": "https://github.com/startae/reset-css-dogmatic",
+  "authors": ["Renato Carvalho"],
+  "license": "PUBLIC DOMAIN (UNLICENSED)",
+  "ignore": ["README.md"],
+  "main": [
+    "reset.css",
+    "reset.less",
+    "_reset.scss"
+  ]
+}
