@@ -1,4 +1,4 @@
-/*! reset.css v1.0.0 */
+/*! reset.css v1.0.4 */
 html,
 body,
 p,
@@ -23,7 +23,8 @@ h4,
 h5,
 h6 {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 *,
 ::before,
@@ -31,14 +32,16 @@ h6 {
   background-repeat: no-repeat;
   /* 1 */
   box-sizing: inherit;
-  /* 2 */ }
+  /* 2 */
+}
 
 ::before,
 ::after {
   text-decoration: inherit;
   /* 1 */
   vertical-align: inherit;
-  /* 2 */ }
+  /* 2 */
+}
 
 html {
   box-sizing: border-box;
@@ -50,7 +53,8 @@ html {
   -ms-text-size-adjust: 100%;
   /* 4 */
   -webkit-text-size-adjust: 100%;
-  /* 4 */ }
+  /* 4 */
+}
 
 article,
 aside,
@@ -58,7 +62,8 @@ footer,
 header,
 nav,
 section {
-  display: block; }
+  display: block;
+}
 
 h1,
 h2,
@@ -67,13 +72,15 @@ h4,
 h5,
 h6 {
   font-size: 100%;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 figcaption,
 figure,
 main {
   display: block;
-  /* 1 */ }
+  /* 1 */
+}
 
 hr {
   box-sizing: content-box;
@@ -81,43 +88,49 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */ }
+  /* 2 */
+}
 
 ol,
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 a {
   background-color: transparent;
   /* 1 */
   -webkit-text-decoration-skip: objects;
-  /* 2 */ }
+  /* 2 */
+}
 
 a:hover,
 a:active {
-  outline: none; }
+  outline: none;
+}
 
 abbr[title] {
   border-bottom: none;
   /* 1 */
-  text-decoration: underline;
+  text-decoration: none;
   /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */ }
+}
 
 b,
 strong {
-  font-weight: inherit; }
+  font-weight: inherit;
+}
 
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
 code,
 kbd,
@@ -125,37 +138,45 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
 mark {
   background-color: #ffff00;
-  color: #000000; }
+  color: #000000;
+}
 
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 sub {
-  bottom: -.25em; }
+  bottom: -0.25em;
+}
 
 sup {
-  top: -.5em; }
+  top: -0.5em;
+}
 
 ::selection {
   background-color: #b3d4fc;
   /* 1 */
   color: #000000;
   /* 1 */
-  text-shadow: none; }
+  text-shadow: none;
+}
 
 img,
 embed,
@@ -166,7 +187,8 @@ video,
 input,
 textarea {
   height: auto;
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 audio,
 canvas,
@@ -174,42 +196,52 @@ iframe,
 img,
 svg,
 video {
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 iframe {
-  border: 0; }
+  border: 0;
+}
 
 audio,
 video {
-  display: inline-block; }
+  display: inline-block;
+}
 
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
 img {
-  border-style: none; }
+  border-style: none;
+}
 
 svg {
-  fill: currentColor; }
+  fill: currentColor;
+}
 
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 td, th {
   padding: 0;
-  text-align: left; }
+  text-align: left;
+}
 
 button,
 input,
 optgroup,
 select,
 textarea {
-  margin: 0; }
+  margin: 0;
+}
 
 button,
 input,
@@ -217,36 +249,44 @@ select,
 textarea {
   background-color: transparent;
   color: inherit;
+  text-align: inherit;
+  font-family: inherit;
   font-size: inherit;
-  line-height: inherit; }
+  line-height: inherit;
+}
 
 fieldset {
   min-width: 0;
-  border: 0; }
+  border: 0;
+}
 
 button,
 input {
   /* 1 */
-  overflow: visible; }
+  overflow: visible;
+}
 
 button,
 select {
   /* 1 */
-  text-transform: none; }
+  text-transform: none;
+}
 
 button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
+html [type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
-  /* 2 */ }
+  /* 2 */
+}
 
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
-  padding: 0; }
+  padding: 0;
+}
 
 legend {
   box-sizing: border-box;
@@ -260,59 +300,71 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */ }
+  /* 1 */
+}
 
 progress {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
+  /* 2 */
+}
 
 textarea {
   overflow: auto;
   /* 1 */
   resize: none;
-  /* 2 */ }
+  /* 2 */
+}
 
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
 
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */ }
+  /* 2 */
+}
 
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */ }
+  /* 2 */
+}
 
 details,
 menu {
-  display: block; }
+  display: block;
+}
 
 summary {
-  display: list-item; }
+  display: list-item;
+}
 
 canvas {
-  display: inline-block; }
+  display: inline-block;
+}
 
 template {
-  display: none; }
+  display: none;
+}
 
 a,
 area,
@@ -325,23 +377,29 @@ textarea,
 [tabindex] {
   -ms-touch-action: manipulation;
   /* 1 */
-  touch-action: manipulation; }
+  touch-action: manipulation;
+}
 
 [hidden] {
-  display: none; }
+  display: none;
+}
 
-[aria-busy="true"] {
-  cursor: progress; }
+[aria-busy=true] {
+  cursor: progress;
+}
 
 [aria-controls] {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
-[aria-hidden="false"][hidden]:not(:focus) {
+[aria-hidden=false][hidden]:not(:focus) {
   clip: rect(0, 0, 0, 0);
   display: inherit;
-  position: absolute; }
+  position: absolute;
+}
 
 [aria-disabled] {
-  cursor: default; }
+  cursor: default;
+}
 
 /*# sourceMappingURL=_reset.css.map */

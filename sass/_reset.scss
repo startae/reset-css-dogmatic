@@ -1,4 +1,4 @@
-/*! reset.css v1.0.0 */
+/*! reset.css v1.0.4 */
 
 ////
 /// Blocks
@@ -149,11 +149,10 @@ a:active {
 }
 
 // 1. Remove the bottom border in Firefox 39-.
-// 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+// 2. Remove text decoration in Chrome, Edge, IE, Opera, and Safari.
 abbr[title] {
   border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  text-decoration: none; /* 2 */
 }
 
 // Prevent the duplicate application of `bolder` by the next rule in Safari 6.
@@ -315,6 +314,8 @@ select,
 textarea {
   background-color: transparent;
   color: inherit;
+  text-align: inherit;
+  font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
