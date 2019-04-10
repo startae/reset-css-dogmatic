@@ -7,9 +7,9 @@ A **modified and dogmatic** version of Eric Meyer's [CSS reset](https://meyerweb
 With curl:
 
 ```command
-$ curl -O "https://unpkg.com/reset-css-dogmatic@1.0.3/reset.css"
-$ curl -O "https://unpkg.com/reset-css-dogmatic@1.0.3/sass/_reset.scss"
-$ curl -O "https://unpkg.com/reset-css-dogmatic@1.0.3/less/reset.less"
+$ curl -O "https://unpkg.com/reset-css-dogmatic@1.0.4/reset.css"
+$ curl -O "https://unpkg.com/reset-css-dogmatic@1.0.4/sass/_reset.scss"
+$ curl -O "https://unpkg.com/reset-css-dogmatic@1.0.4/less/reset.less"
 ```
 
 With [NPM](http://npmjs.com):
